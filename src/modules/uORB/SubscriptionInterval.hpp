@@ -138,6 +138,8 @@ public:
 	orb_id_t	get_topic() const { return _subscription.get_topic(); }
 	ORB_PRIO	get_priority() { return _subscription.get_priority(); }
 
+	unsigned get_last_generation() const { return _subscription.get_last_generation(); }
+
 	/**
 	 * Set the interval in microseconds
 	 * @param interval The interval in microseconds.
