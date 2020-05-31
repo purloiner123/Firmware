@@ -136,6 +136,7 @@ enum INT_PIN_CFG_BIT : uint8_t {
 
 // INT_ENABLE
 enum INT_ENABLE_BIT : uint8_t {
+	FIFO_OFLOW_EN   = Bit4,
 	DATA_RDY_INT_EN = Bit0
 };
 
